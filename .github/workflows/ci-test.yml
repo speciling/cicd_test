@@ -3,10 +3,6 @@ name: Java CI with Gradle
 on:
   pull_request:
     branches: [ main ]
-
-defaults:
-  run:
-    working-directory: demo
     
 permissions:
   contents: read
